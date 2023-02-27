@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class ComputeTest {
+public class ComputeTask1Test {
     @Test
     public void tc01_compute_singleData(){
         Assert.assertEquals(1000,Main.computeTask1("1000"));
